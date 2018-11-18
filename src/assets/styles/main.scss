@@ -1,0 +1,76 @@
+@import "setup/normalize.scss";
+@import "setup/typography.scss";
+@import "setup/variables.scss";
+@import "setup/mixins.scss";
+
+@import "basics/base.scss";
+@import "basics/layout.scss";
+@import "basics/links.scss";
+@import "basics/buttons.scss";
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+
+.main {
+    color: blue
+}
+
+body {
+    background: $background;
+    font-family: 'Roboto',Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+}
+
+.nav-custom {
+      // box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1); 
+      background: $background;
+}
+
+.nav-link {
+    // border-right: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    color: #24272a;
+    padding: 0 10px;
+    border-right: 1px solid #ddd;
+}
+
+.home-search {
+    // background: #ffffff;
+    padding: 6%;
+    margin-top: 10%;
+}
+
+.btn {
+    background-color: #0070c9;
+    background: -webkit-gradient(linear, left top, left bottom, from(#42a1ec), to(#0070c9));
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    min-width: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+.btn:hover {
+    background-color: #147bcd;
+    background: -webkit-gradient(linear, left top, left bottom, from(#51a9ee), to(#147bcd));
+    background: linear-gradient(#51a9ee, #147bcd);
+    border-color: #1482d0;
+    text-decoration: none;
+}
