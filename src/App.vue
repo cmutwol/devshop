@@ -7,16 +7,22 @@
       <router-link to="/about">About</router-link>
     </div> -->
      <router-view />
+     
     </div>
   </div>
 </template>
 
 <script>
-import Header from './shared/headers/Header.vue';
+import Header from "./shared/headers/Header.vue";
   export default {
-    components: {
+     data() {
+       return {
+         
+       }
+     },
+     components: {
       Header
-    }
+     }
   }
 </script>
 <style lang="scss">

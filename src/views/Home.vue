@@ -1,11 +1,11 @@
 <template>
-  <div class="home">
+  <div class="home" id="home">
     <div class="row">
       <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="home-search">
           <h3>DevShop</h3>
-          <p>What would you like to order today ?</p>
-            <button type="submit" class="btn btn-success">Explore <i class="ion-ios-arrow-round-forward"></i></button>
+          <p class="home-p">What would you like to order today ?</p>
+            <button type="submit" class="btn cust-btn btn-success">Explore <i class="ion-ios-arrow-round-forward"></i></button>
         </div>
       </div>
       <div class="col-sm-6 col-md-6 col-lg-6 mt-3">
@@ -25,11 +25,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss" scoped>
-// .btn-success {
-//     color: #24272a;
-//     background-color: #ffffff;
-//     border-color: #28a745;
-// }
-</style>
